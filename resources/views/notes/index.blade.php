@@ -24,6 +24,7 @@
                                         <th scope="col">#</th>
                                         <th scope="col">Name</th>
                                         <th scope="col">Content</th>
+                                        <th scope="col">Created At</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -34,6 +35,7 @@
                                                 <th scope="row">{{ $note->id }}</th>
                                                 <td>{{ $note->name }}</td>
                                                 <td>{{ $note->content }}</td>
+                                                <td>{{ $note->created_at }}</td>
                                                 <td width="150">
                                                     <div style="display:flex; justify-content: space-between">
                                                     <div>

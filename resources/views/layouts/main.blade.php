@@ -39,9 +39,17 @@
                         <li class="nav-item"><a href="{{ route('register') }}" class="btn btn-outline-primary">Register</a></li>
                     @else
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="btn " href="#">
                                 {{ auth()->user()->fullName() }}
                             </a>
+                        </li>
+                        <li>
+                            <a class="btn btn-outline-dark " href="{{ route('logout') }}"
+                               onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                {{ __('Logout') }}
+                            </a>
+                        </li>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item" href="{{ route('settings.profile.edit') }}">Settings</a>
                                 <a class="dropdown-item" href="{{ route('logout') }}"
