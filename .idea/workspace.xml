@@ -21,9 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3f314592-85f2-4b8a-867a-1f44efa0d027" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/notes/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/notes/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +183,9 @@
       <workItem from="1598561628868" duration="845000" />
       <workItem from="1598647310114" duration="5187000" />
       <workItem from="1598721266213" duration="10222000" />
-      <workItem from="1598783698002" duration="21912000" />
+      <workItem from="1598783698002" duration="22039000" />
+      <workItem from="1598815798201" duration="8000" />
+      <workItem from="1598984440745" duration="949000" />
     </task>
     <servers />
   </component>
@@ -201,6 +202,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="590" y="158" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1598796036730">
